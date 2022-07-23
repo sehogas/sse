@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/shogas/go/src/github.com/sehogas/sse_server'
+docker build -t sse_server:1.0 .
+make: Leaving directory '/home/shogas/go/src/github.com/sehogas/sse_server'
+ 

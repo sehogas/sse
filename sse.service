@@ -6,7 +6,7 @@ Type=simple
 Restart=always
 RestartSec=5s
 Environment=PORT=3003
-ExecStart=/home/shogas/go/bin/see
+ExecStart=/home/shogas/go/bin/sse
 
 [Install]
 WantedBy=multi-user.target

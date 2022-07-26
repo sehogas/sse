@@ -7,8 +7,8 @@ import (
 
 	"github.com/gorilla/mux"
 	"github.com/rs/cors"
-	"github.com/sehogas/sse_server/handerls"
-	"github.com/sehogas/sse_server/util"
+	"github.com/sehogas/sse/handerls"
+	"github.com/sehogas/sse/util"
 )
 
 func main() {

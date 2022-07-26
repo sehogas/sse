@@ -15,16 +15,16 @@ COPY . .
 # Set necessary environment variables needed for our image 
 # and build the API server.
 ENV CGO_ENABLED=0 GOOS=linux GOARCH=amd64
-RUN go build -ldflags="-s -w" -o sse_server .
+RUN go build -ldflags="-s -w" -o sse .
 
 FROM scratch
 
 # Copy binary and config files from /build 
 # to root folder of scratch container.
-COPY --from=builder ["/build/sse_server", "/"]
+COPY --from=builder ["/build/sse", "/"]
 
 # Export necessary port.
 EXPOSE 3003
 
 # Command to run when starting the container.
-ENTRYPOINT ["/sse_server"]
+ENTRYPOINT ["/sse"]

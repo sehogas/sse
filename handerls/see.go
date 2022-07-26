@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/sehogas/sse_server/util"
+	"github.com/sehogas/sse/util"
 )
 
 type Message struct {

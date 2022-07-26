@@ -1,4 +1,4 @@
-module github.com/sehogas/sse_server
+module github.com/sehogas/sse
 
 go 1.17
 

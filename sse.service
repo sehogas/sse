@@ -1,0 +1,12 @@
+[Unit]
+Description=sse
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=5s
+Environment=PORT=3003
+ExecStart=/home/shogas/go/bin/see
+
+[Install]
+WantedBy=multi-user.target

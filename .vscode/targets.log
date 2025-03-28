@@ -1,213 +1,330 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-# GNU Make 4.2.1
+# GNU Make 4.3
 # Built for x86_64-pc-linux-gnu
-# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jul 23 00:02:06 2022
+# Make data base, printed on Fri Mar 28 16:58:46 2025
 
 # Variables
 
-# 'override' directive
-GNUMAKEFLAGS := 
-# automatic
-<D = $(patsubst %/,%,$(dir $<))
-# automatic
-?F = $(notdir $?)
 # environment
-DESKTOP_SESSION = ubuntu
+GDK_BACKEND = x11
+# environment
+MEMORY_PRESSURE_WRITE = c29tZSAyMDAwMDAgMjAwMDAwMAA=
+# makefile (from 'Makefile', line 7)
+CGO = 0
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+FONTCONFIG_PATH = /etc/fonts
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+SNAP_LAUNCHER_ARCH_TRIPLET = x86_64-linux-gnu
+# environment
+LC_NAME = es_AR.UTF-8
+# environment
+LC_NUMERIC = es_AR.UTF-8
+# environment
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# environment
+VSCODE_CWD = /home/shogas/go/src/github.com/sehogas/sse
+# environment
+NVM_DIR = /home/shogas/.nvm
+# environment
+LC_ADDRESS = es_AR.UTF-8
 # default
-.SHELLFLAGS := -c
+MAKE_COMMAND := make
 # environment
-XDG_SESSION_CLASS = user
-# environment
-XDG_SESSION_TYPE = x11
-# automatic
-?D = $(patsubst %/,%,$(dir $?))
-# environment
-IM_CONFIG_PHASE = 1
+QT_ACCESSIBILITY = 1
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
-XAUTHORITY = /run/user/1000/gdm/Xauthority
+SNAP_INSTANCE_NAME = code
 # environment
-GDMSESSION = ubuntu
+GDK_PIXBUF_MODULEDIR = /snap/code/187/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # environment
-XMODIFIERS = @im=ibus
-# makefile
-CURDIR := /home/shogas/go/src/github.com/sehogas/sse_server
-# makefile
-SHELL = /bin/sh
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
 # environment
-VSCODE_NLS_CONFIG = {"locale":"es","availableLanguages":{"*":"es"},"_languagePackId":"aa57718bb4fee18a0bf2e4902cb2afaf.es","_translationsConfigFile":"/home/shogas/.config/Code/clp/aa57718bb4fee18a0bf2e4902cb2afaf.es/tcf.json","_cacheRoot":"/home/shogas/.config/Code/clp/aa57718bb4fee18a0bf2e4902cb2afaf.es","_resolvedLanguagePackCoreLocation":"/home/shogas/.config/Code/clp/aa57718bb4fee18a0bf2e4902cb2afaf.es/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a","_corruptedFile":"/home/shogas/.config/Code/clp/aa57718bb4fee18a0bf2e4902cb2afaf.es/corrupted.info","_languagePackSupport":true}
-# environment
-_ = /usr/share/code/code
-# environment
-JOURNAL_STREAM = 8:65686
-# environment
-XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
-# makefile (from 'Makefile', line 1)
-MAKEFILE_LIST :=  Makefile
+PWD = /home/shogas/go/src/github.com/sehogas/sse
 # automatic
-@F = $(notdir $@)
+%D = $(patsubst %/,%,$(dir $%))
 # environment
-GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+XDG_DATA_DIRS = /home/shogas/snap/code/187/.local/share:/home/shogas/snap/code/187:/snap/code/187/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
 # environment
-USERNAME = shogas
+SNAP_EUID = 1000
 # environment
-MANDATORY_PATH = /usr/share/gconf/ubuntu.mandatory.path
-# environment
-XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
-# environment
-VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
-# environment
-DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
-# environment
-MANAGERPID = 3172
-# environment
-LESSOPEN = | /usr/bin/lesspipe %s
-# environment
-VSCODE_CWD = /home/shogas
-# environment
-GOPROXY = https://proxy.golang.org,direct
-# default
-MAKE_HOST := x86_64-pc-linux-gnu
-# environment
-PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/shogas/go/bin:/usr/local/go/bin:/usr/local/bin/node
-# environment
-GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
-# environment
-SESSION_MANAGER = local/lola:@/tmp/.ICE-unix/3428,unix/lola:/tmp/.ICE-unix/3428
-# environment
-XDG_RUNTIME_DIR = /run/user/1000
-# environment
-GOPATH = /home/shogas/go
-# environment
-XDG_MENU_PREFIX = gnome-
-# environment
-ELECTRON_RUN_AS_NODE = 1
-# environment
-INVOCATION_ID = c5b0d8ff817642a998d7535602f5d260
-# default
-.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
-# environment
-LS_COLORS = 
-# environment
-XDG_SESSION_DESKTOP = ubuntu
-# environment
-SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
-# environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 74040
+OLDPWD = /home/shogas/go/src/github.com/sehogas
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
 # automatic
 %F = $(notdir $%)
 # environment
-DISPLAY = :0
+NVM_INC = /home/shogas/.nvm/versions/node/v22.14.0/include/node
 # environment
-PWD = /home/shogas/go/src/github.com/sehogas/sse_server
+VSCODE_CODE_CACHE_PATH = /home/shogas/.config/Code/CachedData/ddc367ed5c8936efe395cffeec279b04ffd7db78
+# environment
+LANG = C
+# environment
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.ORQ332
 # default
 .LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
 # environment
-SSH_AGENT_PID = 3362
+MEMORY_PRESSURE_WATCH = /sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure
 # environment
-ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+GNOME_TERMINAL_SERVICE = :1.173
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /home/shogas/go/src/github.com/sehogas/sse
 # environment
-GTK_MODULES = gail:atk-bridge
+LESSOPEN = | /usr/bin/lesspipe %s
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# makefile (from 'Makefile', line 3)
+VERSION = 1.0
 # environment
-GOMODCACHE = /home/shogas/go/pkg/mod
+MFLAGS = -pqrR
 # environment
-HOME = /home/shogas
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# default
+.SHELLFLAGS := -c
 # environment
-LESSCLOSE = /usr/bin/lesspipe %s %s
+NVM_BIN = /home/shogas/.nvm/versions/node/v22.14.0/bin
 # environment
-VSCODE_CODE_CACHE_PATH = /home/shogas/.config/Code/CachedData/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a
+WAYLAND_DISPLAY = wayland-0
 # environment
-LOGNAME = shogas
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+XDG_SESSION_DESKTOP = ubuntu
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
 # environment
-VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+VSCODE_PID = 8668
+# environment
+XDG_SESSION_TYPE = wayland
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
+# makefile (from 'Makefile', line 6)
+FLAGS = "-s -w"
+# environment
+FREETYPE_PROPERTIES = autofitter:no-stem-darkening=0 autofitter:darkening-parameters=500,0,1000,500,2500,500,4000,0 cff:no-stem-darkening=0 cff:darkening-parameters=500,475,1000,475,2500,475,4000,0 type1:no-stem-darkening=0 type1:darkening-parameters=500,475,1000,475,2500,475,4000,0 t1cid:no-stem-darkening=0 t1cid:darkening-parameters=500,475,1000,475,2500,475,4000,0
+# environment
+XDG_DATA_HOME = /home/shogas/snap/code/187/.local/share
+# environment
+SESSION_MANAGER = local/mbp:@/tmp/.ICE-unix/4086,unix/mbp:/tmp/.ICE-unix/4086
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_DESKTOP = code.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"userLocale":"es","osLocale":"es","resolvedLanguage":"en","defaultMessagesFile":"/snap/code/187/usr/share/code/resources/app/out/nls.messages.json","locale":"es","availableLanguages":{}}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+GTK_PATH = /snap/code/187/usr/lib/x86_64-linux-gnu/gtk-3.0
 # environment
 GNOME_DESKTOP_SESSION_ID = this-is-deprecated
-# automatic
-^D = $(patsubst %/,%,$(dir $^))
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=ibus
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+SHLVL = 1
+# environment
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/a1d9432f_a9b4_44aa_8f98_440817a6b7f4
 # environment
 MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
+# environment
+SNAP_COOKIE = U4_mEgwdCEwchG2vNe8j5mnXZhLXOwwwS6pIZ9w0Nzz05lxoxxj9
+# environment
+PATH = /home/shogas/.nvm/versions/node/v22.14.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/go/bin
 # default
-MAKECMDGOALS := all
+MAKEFILES := 
 # environment
-QT_IM_MODULE = ibus
+LANGUAGE = es:en
 # environment
-SHLVL = 0
+LC_MONETARY = es_AR.UTF-8
+# automatic
+^F = $(notdir $^)
 # environment
-GNOME_SHELL_SESSION_MODE = ubuntu
-# default
-MAKE_VERSION := 4.2.1
+SNAP_USER_COMMON = /home/shogas/snap/code/common
 # environment
-USER = shogas
-# makefile
-.DEFAULT_GOAL := build
+LC_TIME = es_AR.UTF-8
+# environment
+SNAP = /snap/code/187
+# environment
+INVOCATION_ID = f257321cfc8946e58a947e3cfca07731
+# environment
+SNAP_REVISION = 187
+# environment
+SNAP_REAL_HOME = /home/shogas
+# environment
+FONTCONFIG_FILE = /etc/fonts/fonts.conf
+# environment
+USERNAME = shogas
+# environment
+GNOME_SETUP_DISPLAY = :1
+# environment
+LC_TELEPHONE = es_AR.UTF-8
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# automatic
+?F = $(notdir $?)
+# environment
+GTK_IM_MODULE_FILE = /home/shogas/snap/code/common/.cache/immodules/immodules.cache
 # environment
 XDG_CURRENT_DESKTOP = Unity
-# automatic
-%D = $(patsubst %/,%,$(dir $%))
-# default
-MAKE_COMMAND := make
-# default
-.VARIABLES := 
-# automatic
-*F = $(notdir $*)
 # environment
-LANGUAGE = es_AR:es
-# environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-2ff637c1-1.69.1-main.sock
-# makefile
-MAKEFLAGS = pqrR
-# environment
-MFLAGS = -pqrR
-# automatic
-*D = $(patsubst %/,%,$(dir $*))
-# automatic
-+D = $(patsubst %/,%,$(dir $+))
-# environment
-GDK_BACKEND = x11
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:
 # automatic
 +F = $(notdir $+)
 # environment
-QT_ACCESSIBILITY = 1
+DESKTOP_SESSION = ubuntu
 # environment
-DEFAULTS_PATH = /usr/share/gconf/ubuntu.default.path
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+LOCPATH = /snap/code/187/usr/lib/locale
+# 'override' directive
+GNUMAKEFLAGS := 
+# makefile (from 'Makefile', line 4)
+OS = linux
+# environment
+XDG_DATA_DIRS_VSCODE_SNAP_ORIG = /usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+LOGNAME = shogas
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
+SNAP_ARCH = amd64
+# makefile
+.DEFAULT_GOAL := run
+# environment
+SYSTEMD_EXEC_PID = 4131
+# makefile (from 'Makefile', line 5)
+ARCH = amd64
+# environment
+DISPLAY = :0
+# environment
+USER = shogas
+# environment
+GTK_MODULES = gail:atk-bridge
 # default
-MAKEFILES := 
+MAKE_VERSION := 4.3
+# environment
+SNAP_DATA = /var/snap/code/187
+# environment
+SNAP_CONTEXT = U4_mEgwdCEwchG2vNe8j5mnXZhLXOwwwS6pIZ9w0Nzz05lxoxxj9
+# environment
+MANAGERPID = 3842
+# environment
+DEBUGINFOD_URLS = https://debuginfod.ubuntu.com 
+# environment
+LC_MEASUREMENT = es_AR.UTF-8
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 8620
+# environment
+LC_PAPER = es_AR.UTF-8
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+SNAP_UID = 1000
+# environment
+COLORTERM = truecolor
+# environment
+XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG = /etc/xdg/xdg-ubuntu:/etc/xdg
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/shogas/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+GIO_MODULE_DIR = /home/shogas/snap/code/common/.cache/gio-modules
+# environment
+JOURNAL_STREAM = 9:27561
+# environment
+XDG_SESSION_CLASS = user
+# environment
+GSM_SKIP_SSH_AGENT_WORKAROUND = true
+# environment
+HOME = /home/shogas
+# environment
+QT_IM_MODULE = ibus
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-2bd5ef1e-1.98-main.sock
+# environment
+ 
+TERM = xterm-256color
+# environment
+GTK_EXE_PREFIX = /snap/code/187/usr
+# environment
+SNAP_NAME = code
+# environment
+GSETTINGS_SCHEMA_DIR = /home/shogas/snap/code/187/.local/share/glib-2.0/schemas
+# environment
+IM_CONFIG_PHASE = 1
+# environment
+PAPERSIZE = a4
+# default
+.RECIPEPREFIX := 
 # automatic
 <F = $(notdir $<)
 # environment
-LC_ALL = C
-# environment
-GJS_DEBUG_TOPICS = JS ERROR;JS LOG
-# automatic
-^F = $(notdir $^)
+SNAP_VERSION = ddc367ed
 # default
 SUFFIXES := 
+# 'override' directive (from 'Makefile', line 2)
+TARGET = sse
 # environment
-CHROME_DESKTOP = code-url-handler.desktop
+VSCODE_CLI = 1
 # environment
-WINDOWPATH = 2
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+VTE_VERSION = 7600
+# environment
+SNAP_COMMON = /var/snap/code/common
 # default
-.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
 # environment
-GJS_DEBUG_OUTPUT = stderr
-# default
-.RECIPEPREFIX := 
+SNAP_USER_DATA = /home/shogas/snap/code/187
 # environment
-LANG = C
+XDG_MENU_PREFIX = gnome-
 # environment
-VSCODE_PID = 74040
+VSCODE_ESM_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+GDMSESSION = ubuntu
+# environment
+LC_IDENTIFICATION = es_AR.UTF-8
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
 # variable set hash-table stats:
-# Load=98/1024=10%, Rehash=0, Collisions=13/123=11%
+# Load=156/1024=15%, Rehash=0, Collisions=18/189=10%
 
 # Pattern-specific Variable Values
 
@@ -215,9 +332,9 @@ VSCODE_PID = 74040
 
 # Directories
 
-# . (device 66306, inode 6690053): 13 files, no impossibilities.
+# . (device 66306, inode 15994410): 14 files, no impossibilities.
 
-# 13 files, no impossibilities in 1 directories.
+# 14 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -225,104 +342,138 @@ VSCODE_PID = 74040
 
 # Files
 
-stop:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 11):
-	docker stop sse_server
-
-# Not a target:
-all:
-#  Command line target.
-#  Implicit rule search has been done.
-#  File does not exist.
-#  File has not been updated.
-
-bin:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 17):
-	CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -ldflags="-s -w" -o sse_server .
-
-.PHONY: build tag start stop run bin install
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-Makefile:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-22 11:01:22.794255812
-#  File has been updated.
-#  Successfully updated.
-
 start:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 8):
-	docker run --rm -d --name sse_server -p 3003:3003 sse_server:latest
-
-build:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 2):
-	docker build -t sse_server:1.0 .
-
-tag:
-#  Phony target (prerequisite of .PHONY).
-#  Implicit rule search has not been done.
-#  File does not exist.
-#  File has not been updated.
-#  recipe to execute (from 'Makefile', line 5):
-	docker tag sse_server:1.0 sse_server:latest
+#  recipe to execute (from 'Makefile', line 28):
+	@echo Ejecutando contenedor docker $(TARGET):$(VERSION) ...
+	docker run --rm -d --name $(TARGET) -p 3003:3003 $(TARGET):latest
 
 # Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2025-03-28 16:58:25.532105176
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 40):
+	@echo 'No hay disponible ninguna regla para este destino'
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 35):
+	@echo Borrando binario ...
+	rm -rf $(TARGET)
+
+stop:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 32):
+	docker stop $(TARGET)
+
 .DEFAULT:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
+#  recipe to execute (from 'Makefile', line 40):
+	@echo 'No hay disponible ninguna regla para este destino'
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := all
+# automatic
+# * := 
+# automatic
+# < := all
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  recipe to execute (from 'Makefile', line 40):
+	@echo 'No hay disponible ninguna regla para este destino'
 
 run:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 14):
-	PORT=3003 go run main.go
+#  recipe to execute (from 'Makefile', line 11):
+	@echo Ejecutando programa...
+	go run main.go
+
+build:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 23):
+	@echo Construyendo imagen docker $(TARGET):$(VERSION) ...
+	docker build -t $(TARGET):$(VERSION) .
+	docker tag $(TARGET):$(VERSION) $(TARGET):latest
+
+bin:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 15):
+	@echo Generando binario ...
+	CGO_ENABLED=$(CGO) GOOS=$(OS) GOARCH=$(ARCH) go build -ldflags=$(FLAGS) -o $(TARGET) .
 
 install:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
- 
-make: *** No rule to make target 'all'.  Stop.
+#  recipe to execute (from 'Makefile', line 19):
+	@echo Instalando binario binario ...
+	CGO_ENABLED=$(CGO) GOOS=$(OS) GOARCH=$(ARCH) go install -ldflags=$(FLAGS) 
 
-#  recipe to execute (from 'Makefile', line 20):
-	CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go install -ldflags="-s -w"
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: clean run install build start stop
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # files hash-table stats:
-# Load=12/1024=1%, Rehash=0, Collisions=0/29=0%
+# Load=12/1024=1%, Rehash=0, Collisions=0/30=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 26 / storage = 194 B / avg = 7 B
-# current buf: size = 8162 B / used = 194 B / count = 26 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 27 / storage = 208 B / avg = 7 B
+# current buf: size = 8162 B / used = 208 B / count = 27 / avg = 7 B
 
-# strcache performance: lookups = 45 / hit rate = 42%
+# strcache performance: lookups = 48 / hit rate = 43%
 # hash-table stats:
-# Load=26/8192=0%, Rehash=0, Collisions=1/45=2%
-# Finished Make data base on Sat Jul 23 00:02:06 2022
+# Load=27/8192=0%, Rehash=0, Collisions=0/48=0%
+# Finished Make data base on Fri Mar 28 16:58:46 2025
 
  

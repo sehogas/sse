@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Mar 28 16:58:46 2025
+# Make data base, printed on Fri Mar 28 17:09:22 2025
 
 # Variables
 
@@ -44,6 +44,8 @@ LC_ADDRESS = es_AR.UTF-8
 MAKE_COMMAND := make
 # environment
 QT_ACCESSIBILITY = 1
+# environment
+GOPATH = /home/shogas/go
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
@@ -71,6 +73,7 @@ OLDPWD = /home/shogas/go/src/github.com/sehogas
 # environment
 NVM_INC = /home/shogas/.nvm/versions/node/v22.14.0/include/node
 # environment
+ 
 VSCODE_CODE_CACHE_PATH = /home/shogas/.config/Code/CachedData/ddc367ed5c8936efe395cffeec279b04ffd7db78
 # environment
 LANG = C
@@ -181,6 +184,8 @@ LC_TIME = es_AR.UTF-8
 # environment
 SNAP = /snap/code/187
 # environment
+GOTELEMETRY_GOPLS_CLIENT_START_TIME = 1740960192
+# environment
 INVOCATION_ID = f257321cfc8946e58a947e3cfca07731
 # environment
 SNAP_REVISION = 187
@@ -220,6 +225,8 @@ OS = linux
 XDG_DATA_DIRS_VSCODE_SNAP_ORIG = /usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
 # environment
 LOGNAME = shogas
+# environment
+GOTELEMETRY_GOPLS_CLIENT_TOKEN = 800
 # environment
 GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
 # environment
@@ -267,6 +274,8 @@ GIO_MODULE_DIR = /home/shogas/snap/code/common/.cache/gio-modules
 # environment
 JOURNAL_STREAM = 9:27561
 # environment
+GOMODCACHE = /home/shogas/go/pkg/mod
+# environment
 XDG_SESSION_CLASS = user
 # environment
 GSM_SKIP_SSH_AGENT_WORKAROUND = true
@@ -279,10 +288,10 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 VSCODE_IPC_HOOK = /run/user/1000/vscode-2bd5ef1e-1.98-main.sock
 # environment
- 
 TERM = xterm-256color
 # environment
 GTK_EXE_PREFIX = /snap/code/187/usr
+ 
 # environment
 SNAP_NAME = code
 # environment
@@ -291,6 +300,8 @@ GSETTINGS_SCHEMA_DIR = /home/shogas/snap/code/187/.local/share/glib-2.0/schemas
 IM_CONFIG_PHASE = 1
 # environment
 PAPERSIZE = a4
+# environment
+GOPROXY = https://proxy.golang.org,direct
 # default
 .RECIPEPREFIX := 
 # automatic
@@ -324,7 +335,7 @@ LC_IDENTIFICATION = es_AR.UTF-8
 # environment
 SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
 # variable set hash-table stats:
-# Load=156/1024=15%, Rehash=0, Collisions=18/189=10%
+# Load=161/1024=16%, Rehash=0, Collisions=20/194=10%
 
 # Pattern-specific Variable Values
 
@@ -332,9 +343,9 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 
 # Directories
 
-# . (device 66306, inode 15994410): 14 files, no impossibilities.
+# . (device 66306, inode 15994410): 16 files, no impossibilities.
 
-# 14 files, no impossibilities in 1 directories.
+# 16 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -452,6 +463,7 @@ install:
 # Not a target:
 .SUFFIXES:
 #  Implicit rule search has not been done.
+ 
 #  Modification time never checked.
 #  File has not been updated.
 
@@ -468,12 +480,12 @@ install:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 27 / storage = 208 B / avg = 7 B
-# current buf: size = 8162 B / used = 208 B / count = 27 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 29 / storage = 223 B / avg = 7 B
+# current buf: size = 8162 B / used = 223 B / count = 29 / avg = 7 B
 
-# strcache performance: lookups = 48 / hit rate = 43%
+# strcache performance: lookups = 50 / hit rate = 42%
 # hash-table stats:
-# Load=27/8192=0%, Rehash=0, Collisions=0/48=0%
-# Finished Make data base on Fri Mar 28 16:58:46 2025
+# Load=29/8192=0%, Rehash=0, Collisions=0/50=0%
+# Finished Make data base on Fri Mar 28 17:09:22 2025
 
  

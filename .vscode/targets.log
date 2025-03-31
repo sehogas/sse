@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Mar 28 17:09:22 2025
+# Make data base, printed on Mon Mar 31 12:10:40 2025
 
 # Variables
 
@@ -19,6 +19,7 @@ CGO = 0
 # environment
 LC_ALL = C
 # environment
+ 
 NO_AT_BRIDGE = 1
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
@@ -35,7 +36,7 @@ LC_NUMERIC = es_AR.UTF-8
 # environment
 VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
 # environment
-VSCODE_CWD = /home/shogas/go/src/github.com/sehogas/sse
+VSCODE_CWD = /home/shogas
 # environment
 NVM_DIR = /home/shogas/.nvm
 # environment
@@ -44,8 +45,6 @@ LC_ADDRESS = es_AR.UTF-8
 MAKE_COMMAND := make
 # environment
 QT_ACCESSIBILITY = 1
-# environment
-GOPATH = /home/shogas/go
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
@@ -73,12 +72,11 @@ OLDPWD = /home/shogas/go/src/github.com/sehogas
 # environment
 NVM_INC = /home/shogas/.nvm/versions/node/v22.14.0/include/node
 # environment
- 
 VSCODE_CODE_CACHE_PATH = /home/shogas/.config/Code/CachedData/ddc367ed5c8936efe395cffeec279b04ffd7db78
 # environment
 LANG = C
 # environment
-XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.ORQ332
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.Q91832
 # default
 .LOADED := 
 # default
@@ -86,7 +84,7 @@ XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.ORQ332
 # environment
 MEMORY_PRESSURE_WATCH = /sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure
 # environment
-GNOME_TERMINAL_SERVICE = :1.173
+GNOME_TERMINAL_SERVICE = :1.218
 # makefile
 MAKEFLAGS = pqrR
 # makefile
@@ -118,7 +116,7 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 8668
+VSCODE_PID = 81739
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
@@ -132,7 +130,7 @@ FREETYPE_PROPERTIES = autofitter:no-stem-darkening=0 autofitter:darkening-parame
 # environment
 XDG_DATA_HOME = /home/shogas/snap/code/187/.local/share
 # environment
-SESSION_MANAGER = local/mbp:@/tmp/.ICE-unix/4086,unix/mbp:/tmp/.ICE-unix/4086
+SESSION_MANAGER = local/mbp:@/tmp/.ICE-unix/3894,unix/mbp:/tmp/.ICE-unix/3894
 # automatic
 *F = $(notdir $*)
 # environment
@@ -157,18 +155,21 @@ MAKECMDGOALS := all
 XMODIFIERS = @im=ibus
 # environment
 GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+ 
 # environment
-SHLVL = 1
+SHLVL = 0
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/a1d9432f_a9b4_44aa_8f98_440817a6b7f4
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/957cc075_f23c_4b3b_a20f_d5afe6eb7635
 # environment
 MAKELEVEL := 0
+# environment
+IM_CONFIG_CHECK_ENV = 1
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
 SNAP_COOKIE = U4_mEgwdCEwchG2vNe8j5mnXZhLXOwwwS6pIZ9w0Nzz05lxoxxj9
 # environment
-PATH = /home/shogas/.nvm/versions/node/v22.14.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/go/bin
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/local/go/bin
 # default
 MAKEFILES := 
 # environment
@@ -184,9 +185,7 @@ LC_TIME = es_AR.UTF-8
 # environment
 SNAP = /snap/code/187
 # environment
-GOTELEMETRY_GOPLS_CLIENT_START_TIME = 1740960192
-# environment
-INVOCATION_ID = f257321cfc8946e58a947e3cfca07731
+INVOCATION_ID = fc22719332d34864a25aaa6107140d2d
 # environment
 SNAP_REVISION = 187
 # environment
@@ -226,15 +225,13 @@ XDG_DATA_DIRS_VSCODE_SNAP_ORIG = /usr/share/ubuntu:/usr/share/gnome:/usr/local/s
 # environment
 LOGNAME = shogas
 # environment
-GOTELEMETRY_GOPLS_CLIENT_TOKEN = 800
-# environment
 GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
 # environment
 SNAP_ARCH = amd64
 # makefile
 .DEFAULT_GOAL := run
 # environment
-SYSTEMD_EXEC_PID = 4131
+SYSTEMD_EXEC_PID = 3939
 # makefile (from 'Makefile', line 5)
 ARCH = amd64
 # environment
@@ -250,13 +247,16 @@ SNAP_DATA = /var/snap/code/187
 # environment
 SNAP_CONTEXT = U4_mEgwdCEwchG2vNe8j5mnXZhLXOwwwS6pIZ9w0Nzz05lxoxxj9
 # environment
-MANAGERPID = 3842
+MANAGERPID = 3649
 # environment
 DEBUGINFOD_URLS = https://debuginfod.ubuntu.com 
 # environment
 LC_MEASUREMENT = es_AR.UTF-8
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 8620
+GIO_LAUNCHED_DESKTOP_FILE_PID = 85025
+# environment
+ 
+_ = /snap/code/187/usr/share/code/code
 # environment
 LC_PAPER = es_AR.UTF-8
 # environment
@@ -272,9 +272,7 @@ GDK_PIXBUF_MODULE_FILE = /home/shogas/snap/code/common/.cache/gdk-pixbuf-loaders
 # environment
 GIO_MODULE_DIR = /home/shogas/snap/code/common/.cache/gio-modules
 # environment
-JOURNAL_STREAM = 9:27561
-# environment
-GOMODCACHE = /home/shogas/go/pkg/mod
+JOURNAL_STREAM = 9:25473
 # environment
 XDG_SESSION_CLASS = user
 # environment
@@ -291,7 +289,6 @@ VSCODE_IPC_HOOK = /run/user/1000/vscode-2bd5ef1e-1.98-main.sock
 TERM = xterm-256color
 # environment
 GTK_EXE_PREFIX = /snap/code/187/usr
- 
 # environment
 SNAP_NAME = code
 # environment
@@ -300,8 +297,6 @@ GSETTINGS_SCHEMA_DIR = /home/shogas/snap/code/187/.local/share/glib-2.0/schemas
 IM_CONFIG_PHASE = 1
 # environment
 PAPERSIZE = a4
-# environment
-GOPROXY = https://proxy.golang.org,direct
 # default
 .RECIPEPREFIX := 
 # automatic
@@ -335,8 +330,9 @@ LC_IDENTIFICATION = es_AR.UTF-8
 # environment
 SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
 # variable set hash-table stats:
-# Load=161/1024=16%, Rehash=0, Collisions=20/194=10%
+# Load=158/1024=15%, Rehash=0, Collisions=18/191=9%
 
+ 
 # Pattern-specific Variable Values
 
 # No pattern-specific variable values.
@@ -405,6 +401,7 @@ all:
 #  Needs to be updated (-q is set).
 # automatic
 # @ := all
+ 
 # automatic
 # * := 
 # automatic
@@ -463,7 +460,6 @@ install:
 # Not a target:
 .SUFFIXES:
 #  Implicit rule search has not been done.
- 
 #  Modification time never checked.
 #  File has not been updated.
 
@@ -479,6 +475,7 @@ install:
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
+ 
 
 # strcache buffers: 1 (0) / strings = 29 / storage = 223 B / avg = 7 B
 # current buf: size = 8162 B / used = 223 B / count = 29 / avg = 7 B
@@ -486,6 +483,6 @@ install:
 # strcache performance: lookups = 50 / hit rate = 42%
 # hash-table stats:
 # Load=29/8192=0%, Rehash=0, Collisions=0/50=0%
-# Finished Make data base on Fri Mar 28 17:09:22 2025
+# Finished Make data base on Mon Mar 31 12:10:40 2025
 
  
